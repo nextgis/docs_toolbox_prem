@@ -10,7 +10,7 @@
    :maxdepth: 2
 
    intro
-   sys_rec
+   sys_req
    auth
    ui
    tools
