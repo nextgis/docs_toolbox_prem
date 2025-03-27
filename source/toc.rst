@@ -3,7 +3,7 @@
 .. NextGIS Toolbox TOC
 
 NextGIS Toolbox on-premise
-==========================================
+==============================
 
     
 .. toctree::
