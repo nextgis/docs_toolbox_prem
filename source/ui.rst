@@ -7,7 +7,7 @@ Press **Toolbox** to browse the catalog of tools.
 
 Press **My tasks** to see the list of your tool runs. To the right you'll find your username and userpic. Click on the downward arrow to open the user menu. From this menu you can go to your profile or log out.
 
-.. figure:: _static/tb_op_topbar_en.png
+.. todo:: _static/tb_op_topbar_en.png
    :name: 
    :align: center
    :width: 20cm
@@ -22,7 +22,7 @@ On the main page below the top panel you'll find the search bar and tags.
 
 Select one or several tags to filter tools. To remove a tag from the filter, click on it again. To remove all tags from the filter, press **Reset**.
 
-.. figure:: _static/tb_op_main_en.png
+.. todo:: _static/tb_op_main_en.png
    :name: 
    :align: center
    :width: 20cm
