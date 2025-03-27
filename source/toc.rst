@@ -2,7 +2,7 @@
 
 .. NextGIS Toolbox TOC
 
-Документация по NextGIS Toolbox on-premise
+NextGIS Toolbox on-premise
 ==========================================
 
     
