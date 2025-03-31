@@ -26,7 +26,7 @@ Contact your IT department to choose addresses you wish to use and note them dow
 .. _tb_ngid:
 
 NextGIS ID authorization
------------------------
+-------------------------
 
 Toolbox On-Premise uses NextGIS ID On-Premise as an authorization server. It is supplied as part of NextGIS Web On-Premise. First find our the address of NextGIS ID On-Premise connection. Make sure you can log in as administrator. The address may be something like https://ngid.example.com or http://server.example.com:8081. Note the connection address, you'll need it later::
 
@@ -145,6 +145,8 @@ Recommendations for reverse proxy setup
 ---------------------------------------------------
 
 To use HTTPS encryption we recommend setting up a reverse proxy server based on Nginx. For reference here's a fragment of the configuration file for toolbox.example.com:
+
+.. code-block::
 
   server {
       server_name toolbox.example.com;
