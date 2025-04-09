@@ -12,6 +12,6 @@ Admin credentials for initial log-in are generated when the app is deployed.
 
    Authorization in NextGIS Toolbox on-premise
 
-Toolbox on-premise (Toolbox for short) are integrated with `NextGIS ID on-premise <https://docs.nextgis.com/docs_ngid/source/toc.html>`_ authentication service deployed by default with the software.
+Toolbox on-premise (Toolbox for short) are integrated with `NextGIS ID on-premise <https://docs.nextgis.com/docs_ngid/source/index.html>`_ authentication service deployed by default with the software.
 Users added to the `Team <https://docs.nextgis.com/docs_ngid/source/ngidop.html#ngidop-teams>`_ also get access to Toolbox.
  
