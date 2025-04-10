@@ -12,5 +12,5 @@
 
    Авторизация в NextGIS Toolbox on-premise
 
-Toolbox on-premise (далее - Toolbox) интегрирован с сервисом авторизации `NextGIS ID on-premise <https://docs.nextgis.ru/docs_ngid/source/toc.html>`_, который по умолчанию разворачивается вместе с ПО.
+Toolbox on-premise (далее - Toolbox) интегрирован с сервисом авторизации `NextGIS ID on-premise <https://docs.nextgis.ru/docs_ngid/source/index.html>`_, который по умолчанию разворачивается вместе с ПО.
 Таким образом добавленные в `Команду <https://docs.nextgis.ru/docs_ngid/source/ngidop.html#ngidop-teams>`_ пользователи также получают доступ в Toolbox.
