@@ -1,4 +1,4 @@
-.. sectionauthor:: Maxim Dubinin <maxim.dubinin@nextgis.com>
+
 
 .. NextGIS Toolbox TOC
 
