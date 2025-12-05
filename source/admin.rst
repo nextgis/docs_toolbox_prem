@@ -80,14 +80,14 @@ Toolbox On-Premise потребуется Docker Swarm, его нужно ини
 Установка NextGIS Toolbox
 ---------------------------
 
-На сервере, где планируется развернуть Toolbox On-Premise, создайте директорию /srv/toolbox и перейдите в нее, скачайте шаблон конфигурации (docker-compose-24.10.0.tar.bz2, где 24.10.0 - текущая версия) и распакуйте его. Если установка производится на сервере без доступа в Интернет, скачайте файл на другом ПК и перенесите его на сервер.
+На сервере, где планируется развернуть Toolbox On-Premise, создайте директорию /srv/toolbox и перейдите в нее, скачайте шаблон конфигурации (docker-compose-25.12.0.tar.bz2, где 25.12.0 - текущая версия) и распакуйте его. Если установка производится на сервере без доступа в Интернет, скачайте файл на другом ПК и перенесите его на сервер.
 
 ::
 
   $ mkdir /srv/toolbox
   $ cd /srv/toolbox
-  $ wget https://nextgis.com/onpremise/toolbox/docker-compose-24.10.0.tar.bz2
-  $ tar jxf docker-compose-24.10.0.tar.bz2
+  $ wget https://nextgis.com/onpremise/toolbox/docker-compose-25.12.0.tar.bz2
+  $ tar jxf docker-compose-25.12.0.tar.bz2
 
 Сгенерируйте пароль для Buildbot и запишите его, он может потребоваться в дальнейшем:
 
@@ -103,7 +103,7 @@ Toolbox On-Premise потребуется Docker Swarm, его нужно ини
 
 Отредактируйте файл .env в текстовом редакторе, заполнив значения переменных, которые вы записали выше. В переменной BUILDBOT_REGISTRY_AUTH нужно указать имя пользователя и пароль для подключения NextGIS Container Registry разделив их двоеточием. В итоге должно получится приблизительно следующее::
 
-  IMAGE_VERSION=24.10.0
+  IMAGE_VERSION=25.12.0
   IMAGE_BASE=cr.nextgis.com/toolbox
   COMPOSE_BIND=0.0.0.0
   TOOLBOX_URL=https://toolbox.example.com
