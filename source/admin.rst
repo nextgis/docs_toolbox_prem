@@ -80,14 +80,14 @@ Toolbox On-Premise needs Docker Swarm. Initialize it after installation by runni
 Install NextGIS Toolbox
 ---------------------------
 
-On the server where you plan to deploy Toolbox On-Premise, create the ``/srv/toolbox`` directory, then go to it, download the configuration template (``docker-compose-24.10.0.tar.bz2``, where 24.10.0 is the current version) and unpack it. If the server does not have Internet access, download the file on another PC and transfer it to the server.
+On the server where you plan to deploy Toolbox On-Premise, create the ``/srv/toolbox`` directory, then go to it, download the configuration template (``docker-compose-25.12.0.tar.bz2``, where 25.12.0 is the current version) and unpack it. If the server does not have Internet access, download the file on another PC and transfer it to the server.
 
 ::
 
   $ mkdir /srv/toolbox
   $ cd /srv/toolbox
-  $ wget https://nextgis.com/onpremise/toolbox/docker-compose-24.10.0.tar.bz2
-  $ tar jxf docker-compose-24.10.0.tar.bz2
+  $ wget https://nextgis.com/onpremise/toolbox/docker-compose-25.12.0.tar.bz2
+  $ tar jxf docker-compose-25.12.0.tar.bz2
 
 Generate a password for Buildbot and note it down, you'll need it later:
 
@@ -103,7 +103,7 @@ Generate a password for Buildbot and note it down, you'll need it later:
 
 Edit the .env file in a text editor, filling in the values of the variables you'd noted down. In the BUILDBOT_REGISTRY_AUTH variable, enter the user name and password (separated by a colon) for the NextGIS Container Registry connection. In the end you should get something like this::
 
-  IMAGE_VERSION=24.10.0
+  IMAGE_VERSION=25.12.0
   IMAGE_BASE=cr.nextgis.com/toolbox
   COMPOSE_BIND=0.0.0.0
   TOOLBOX_URL=https://toolbox.example.com
