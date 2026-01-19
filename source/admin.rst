@@ -8,8 +8,9 @@ Select connection addresses
 
 Toolbox On-Premise uses two endpoints: HTTP (or HTTPS):
 
-Users interact with the software via Web interface and API. The default value is http://server.example.com:58347 where server.example.com is the DNS name of the server where the software is deployed. If strictly necessary, the server IP address can be used instead of server.example.com.
-* The Buildbot interface is an auxiliary address, not used during normal operation, but might be required to allow the support team to resolve various issues. The default value is http://hostname.example.com:61978.
+* Users interact with the software via Web interface and API. The default value is ``http://server.example.com:58347`` where server.example.com is the DNS name of the server where the software is deployed. If strictly necessary, the server IP address can be used instead of server.example.com.
+
+* The Buildbot interface is an auxiliary address, not used during normal operation, but might be required to allow the support team to resolve various issues. The default value is ``http://hostname.example.com:61978``.
 
 If your IT infrastructure allows for it, it is recommended to set up a reverse proxy for TLS encryption and using HTTPS. It is especially important if the software is to be accessed not just from the local network, but also from the Internet. In that case the addresses of the entry points depend on the settings of the reverse proxy. The recommended parameters are:
 
