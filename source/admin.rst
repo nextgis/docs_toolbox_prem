@@ -69,7 +69,7 @@ To get the images log in to NextGIS Container Registry with the username (exampl
    $ docker login cr.nextgis.com -u example -p sesame
    Login Succeeded
 
-If the software is deployed to a server without Internet access, contact support for a single-file image archive instead. You'll need to transfer it to the server and load the images using 'docker load' command.
+If the software is deployed to a server without Internet access, generate a single-file image archive using the tool `NextGIS Container Registry export <https://toolbox.nextgis.com/t/ngcr_export>`_. You'll need to transfer it to the server and load the images using 'docker load' command.
 
 Toolbox On-Premise needs Docker Swarm. Initialize it after installation by running the following::
 
